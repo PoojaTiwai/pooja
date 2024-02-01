@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Enquiry Form</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .form {
+        width: 300px;
+        height: auto;
+        background-color: skyblue;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      input {
+        height: 40px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-bottom: 20px;
+      }
+      .select {
+        height: 40px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-bottom: 20px;
+        padding-left: 30px;
+      }
+      button {
+        height: 40px;
+        width: 100%;
+        background-color: goldenrod;
+        color: #fff;
+        border-radius: 10px;
+        border: 1px solid gray;
+        font-weight: 600;
+      }
+      .input-1 {
+        height: 40px;
+        width: 220px;
+      }
+      .select1 {
+        height: 40px;
+        width: 70px;
+        border-radius: 10px;
+      }
+      h2 {text-align: center;
+        
+
+      }
+    </style>
+  </head>
+  <body>
+    <form class="form">
+      <h2>Quick Enquiry Form</h2>
+      <input type="text" placeholder="Your Name" /><br />
+      <input type="email" placeholder="Your Email address" />
+      <div>
+        <select class="select1">
+          <option value>+91</option>
+          <option value>+21</option>
+          <option value>+31</option>
+        </select>
+        <input type="number" placeholder="Your Phone Number" class="input-1" />
+      </div>
+      <input type="text " placeholder="Course you are interested in" /><br />
+      <select class="select">
+        <option>KK Nagar</option>
+        <option>Nehru Nagar</option>
+        <option>Sanjay Nagar</option></select
+      ><br />
+      <select class="select">
+        <option>9AM-2PM</option>
+        <option>3am-4PM</option>
+        <option>4AM-5PM</option></select
+      ><br />
+      <button>Register Now</button>
+    </form>
+  </body>
+</html>
